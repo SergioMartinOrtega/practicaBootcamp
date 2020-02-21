@@ -6,15 +6,16 @@
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:300,400,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <title>Juan Maravilloso</title>
 </head>
 <body>
-    <header>
+    <header class="wrapper">
         <h2>Juan maravilloso</h2>
-        <i class="material-icons">
+        <i id="icon-open" class="material-icons">
             menu
         </i>
-        <i class="material-icons">
+        <i id="icon-close" class="material-icons">
             close
         </i>
         <nav>
@@ -27,24 +28,24 @@
     </header>
     <main>
         <article>
-            <section id="sumary">
+            <section id="summary" class="wrapper">
                 <p>¡HOLA!</p>
                 <h1>Soy Juan,
                     desarrollador
                     web</h1>
-                <a href="#">¿HABLAMOS?</a>
+                <a href="#" class="button">¿HABLAMOS?</a>
             </section>
-            <section id="about-me">
+            <section id="about-me" class="wrapper">
                 <h2>sobre mi</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                 <iframe width="956" height="538" src="https://www.youtube.com/embed/_Bsysdiq0-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
-            <section id="skills">
+            <section id="skills" class="wrapper">
                 <h2>HABILIDADES</h2>
                 <div class="list">
-                    <div class="shill">
+                    <div class="skill">
                         <h3>Front-end developer</h3>
                         <h4>Lenguajes</h4>
                         <p>HTML, CSS, JavaScript</p>
@@ -57,7 +58,7 @@
                             <li>Terminal</li>
                         </ul>                  
                     </div>
-                    <div class="shill">
+                    <div class="skill">
                         <h3>back-end developer</h3>
                         <h4>Lenguajes</h4>
                         <p>Java, Node.js, Python, PHP</p>
@@ -73,7 +74,7 @@
             </section>
         </article>
     </main>
-    <footer>
+    <footer class="wrapper">
         <p>© 2019 Juan maravilloso </p>
     </footer>
 </body>
